@@ -4,7 +4,7 @@
 
 ## Downloading the data
 
-[black-lotus-project-data-2013-10-22.tgz](http://blacklotusproject.com/media/data/black-lotus-project-data-2013-10-22.tgz) (319MB)
+[black-lotus-project-data-2013-10-22.tgz](http://media.blacklotusproject.com/data/blacklotusproject-data-2013-10-22.tgz) (318MB)
 
 The data is available for download from the link above on blacklotusproject.com.
 
