@@ -1,18 +1,20 @@
 # Black Lotus Project Pricing Data
 
-[Black Lotus Project](http://blacklotusproject.com) (BLP) was a Magic: The Gathering card pricing website that collected prices from the [Magic Online Trading League](http://www.magictraders.com/)'s (MOTL) weekly price guide. The price guide was updated once per day, and so the prices were collected once per day. BLP collected data from 2008-10-28 to 2013-10-22 after which point MOTL stopped updating its price guide.
-
-## Downloading the data
-
-[black-lotus-project-data-2013-10-22.tgz](http://media.blacklotusproject.com/data/blacklotusproject-data-2013-10-22.tgz) (318MB)
-
-The data is available for download from the link above on blacklotusproject.com.
+[Black Lotus Project](https://web.archive.org/web/20141216221607/http://blacklotusproject.com/)
+(BLP) was a Magic: The Gathering card pricing website that collected prices from the
+[Magic Online Trading League](http://www.magictraders.com/)'s (MOTL) weekly price guide. The price
+guide was updated once per day, and so the prices were collected once per day. BLP collected data
+from 2008-10-28 to 2013-10-22 after which point MOTL stopped updating its price guide.
 
 ## Data quality
 
-When new sets first went on sale, cards from the new sets would quickly be sold among players and show up on MOTL's price sources. It would sometimes take MOTL weeks to update its card lists with the new sets, which unfortunately led to associating prices from new cards with cards from older sets.
+When new sets first went on sale, cards from the new sets would quickly be sold among players and
+show up on MOTL's price sources. It would sometimes take MOTL weeks to update its card lists with
+the new sets, which unfortunately led to associating prices from new cards with cards from older
+sets.
 
-The data here is unchanged from MOTL's lists, which means there are periods where old cards normally worth a few cents have short periods of inaccurate high valuations.
+The data here is unchanged from MOTL's lists, which means there are periods where old cards normally
+worth a few cents have short periods of inaccurate high valuations.
 
 ## Understanding the data
 
@@ -79,7 +81,7 @@ The archive consists of 8 CSV files that were dumped from a MySQL database.
 
 `name`: Name taken from WotC's [Gatherer](http://gatherer.wizards.com) for set block
 
-### `cards_valuepoint.csv`
+### `cards_valuepoint_0.csv` + `cards_valuepoint_1.csv`
 
 `id`: Primary key
 
@@ -115,8 +117,11 @@ The archive consists of 8 CSV files that were dumped from a MySQL database.
 
 ### Contributing
 
-If you do any clean up of the data, make interesting finds, or do anything cool at all, open an issue on GitHub to share: [blacklotusproject/data](https://github.com/blacklotusproject/data)
+If you do any clean up of the data, make interesting finds, or do anything cool at all, open an
+issue on GitHub to share: [blacklotusproject/data](https://github.com/blacklotusproject/data)
 
 ### License
 
-All data is available under a standard MIT License, which is included in the archive itself. Refer to it for full details, but the gist is: do with this data what you like but always cite your source.
+All data is available under a standard MIT License, which is included in the archive itself. Refer
+to it for full details, but the gist is: do with this data what you like but always cite your
+source.
